@@ -72,4 +72,7 @@ import{_ as s,c as n,o as a,a as l}from"./app.0df0a0dc.js";const E=JSON.parse('{
 <span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 强制推送</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">push</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-f</span></span>
-<span class="line"></span></code></pre></div>`,13),e=[o];function t(c,r,C,i,y,D){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{E as __pageData,d as default};
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 推送到远程服务器并关联本地分支</span></span>
+<span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">push</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-u</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">master</span></span>
+<span class="line"></span></code></pre></div>`,13),e=[o];function t(c,r,C,i,y,D){return a(),n("div",null,e)}const g=s(p,[["render",t]]);export{E as __pageData,g as default};
