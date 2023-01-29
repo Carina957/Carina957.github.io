@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,a as l}from"./app.a9aae109.js";const C=JSON.parse('{"title":"组件","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/vue/components.md"}'),p={name:"guide/vue/components.md"},o=l("",5),e=[o];function t(c,r,D,F,i,y){return n(),a("div",null,e)}const A=s(p,[["render",t]]);export{C as __pageData,A as default};
