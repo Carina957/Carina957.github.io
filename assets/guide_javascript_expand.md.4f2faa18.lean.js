@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as e,a as n}from"./app.71c97d91.js";const C=JSON.parse('{"title":"拓展","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/javascript/expand.md"}'),o={name:"guide/javascript/expand.md"},l=n("",12),p=[l];function c(r,t,i,d,D,y){return e(),s("div",null,p)}const A=a(o,[["render",c]]);export{C as __pageData,A as default};
