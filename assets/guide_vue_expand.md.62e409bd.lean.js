@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.12c6d771.js";const C=JSON.parse('{"title":"拓展","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/vue/expand.md"}'),p={name:"guide/vue/expand.md"},o=l("",37),e=[o];function t(c,r,y,F,D,A){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{C as __pageData,d as default};
