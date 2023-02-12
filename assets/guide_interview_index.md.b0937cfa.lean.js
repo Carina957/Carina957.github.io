@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as s,a}from"./app.7a2c8789.js";const A=JSON.parse('{"title":"面经","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/interview/index.md"}'),n={name:"guide/interview/index.md"},t=a("",45),l=[t];function c(p,d,r,i,y,C){return s(),o("div",null,l)}const h=e(n,[["render",c]]);export{A as __pageData,h as default};
