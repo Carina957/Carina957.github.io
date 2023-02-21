@@ -51,6 +51,12 @@ import{_ as s,c as n,o as a,a as l}from"./app.12fb37af.js";const E=JSON.parse('{
 <span class="line"><span style="color:#676E95;font-style:italic;"># 新建一个分支，并与指定的远程分支建立追踪关系</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">branch</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--track</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">feature/todo_13</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin/main</span></span>
 <span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 建立分支的追踪关系(本地有分支，远程没有)</span></span>
+<span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">push</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--set-upstream</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">feature/todo_11</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 建立分支的追踪关系(本地没有有分支，远程有)</span></span>
+<span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">checkout</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--track</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin/branch_name</span></span>
+<span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 切换到指定分支，并更新工作区</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">checkout</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">develop</span></span>
 <span class="line"></span>
@@ -62,6 +68,9 @@ import{_ as s,c as n,o as a,a as l}from"./app.12fb37af.js";const E=JSON.parse('{
 <span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 删除分支</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">branch</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-d</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">feature/todo_12</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 强制删除分支 表示 \`--delete --force\`</span></span>
+<span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">branch</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-D</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">feature/todo_12</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 删除远程分支</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">push</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--delete</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">feature/todo_12</span></span>
