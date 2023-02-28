@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as l}from"./app.d0ecc88b.js";const i=JSON.parse('{"title":"基础","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/typescript/basic.md"}'),p={name:"guide/typescript/basic.md"},o=l("",6),e=[o];function c(t,r,F,y,D,C){return n(),a("div",null,e)}const B=s(p,[["render",c]]);export{i as __pageData,B as default};
