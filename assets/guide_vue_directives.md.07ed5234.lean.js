@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.d0ecc88b.js";const i=JSON.parse('{"title":"Directives","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/vue/directives.md"}'),p={name:"guide/vue/directives.md"},o=l("",17),e=[o];function t(c,r,y,F,D,C){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{i as __pageData,d as default};
