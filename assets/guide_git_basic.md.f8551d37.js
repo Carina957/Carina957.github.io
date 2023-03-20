@@ -51,6 +51,9 @@ import{_ as s,c as n,o as a,Q as l}from"./chunks/framework.9ebe056a.js";const E=
 <span class="line"><span style="color:#676E95;font-style:italic;"># 新建一个分支，但是依然停留在当前分支</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">branch</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">dev</span></span>
 <span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 新建一个分支，并切换到该分支</span></span>
+<span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">checkout</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-b</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">Fixbug/TJS-</span><span style="color:#F78C6C;">123</span></span>
+<span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 以远程分支为基础新建一个分支，并切换到该分支</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">checkout</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-b</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">feature/todo_12</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin/main</span></span>
 <span class="line"></span>
