@@ -63,6 +63,9 @@ import{_ as s,c as n,o as a,Q as l}from"./chunks/framework.9ebe056a.js";const E=
 <span class="line"><span style="color:#676E95;font-style:italic;"># 建立分支的追踪关系(本地有分支，远程没有)</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">push</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--set-upstream</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">feature/todo_11</span></span>
 <span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 推送本地分支到远程</span></span>
+<span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">push</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">feature/todo_13:feature/todo_13</span></span>
+<span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 建立分支的追踪关系(本地没有有分支，远程有)</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">checkout</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--track</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin/branch_name</span></span>
 <span class="line"></span>
@@ -83,6 +86,7 @@ import{_ as s,c as n,o as a,Q as l}from"./chunks/framework.9ebe056a.js";const E=
 <span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 删除远程分支</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">push</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--delete</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">feature/todo_12</span></span>
+<span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">push</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">:feature/todo_12</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">branch</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-dr</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin/feature/todo_12</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 回滚项目版本</span></span>
@@ -93,4 +97,6 @@ import{_ as s,c as n,o as a,Q as l}from"./chunks/framework.9ebe056a.js";const E=
 <span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 推送到远程服务器并关联本地分支</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">push</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-u</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">origin</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">master</span></span>
-<span class="line"></span></code></pre></div>`,12),e=[o];function t(c,r,C,i,y,D){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{E as __pageData,d as default};
+<span class="line"></span></code></pre></div><h2 id="end-of-line" tabindex="-1">End_of_line <a class="header-anchor" href="#end-of-line" aria-hidden="true">#</a></h2><div class="language-sh"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#676E95;font-style:italic;"># 查看项目的行尾序列</span></span>
+<span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">ls-files</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--eol</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">[</span><span style="color:#A6ACCD;">path</span><span style="color:#89DDFF;">]</span></span>
+<span class="line"></span></code></pre></div>`,14),e=[o];function t(c,r,C,i,y,D){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{E as __pageData,d as default};
