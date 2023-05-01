@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,Q as o}from"./chunks/framework.9ebe056a.js";const i=JSON.parse('{"title":"Vscode","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/vscode/config.md"}'),l={name:"guide/vscode/config.md"},p=o("",3),t=[p];function e(c,D,r,F,y,C){return a(),n("div",null,t)}const u=s(l,[["render",e]]);export{i as __pageData,u as default};
