@@ -22,6 +22,9 @@ import{_ as s,c as n,o as a,Q as l}from"./chunks/framework.9ebe056a.js";const E=
 <span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># 重置 git 配置</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">config</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--global</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--unset</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">https.proxy</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 查看当前代理(解决 ssl 链接重置)</span></span>
+<span class="line"><span style="color:#FFCB6B;">env</span><span style="color:#89DDFF;">|</span><span style="color:#FFCB6B;">grep</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-i</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">proxy</span></span>
 <span class="line"></span></code></pre></div><h2 id="管理仓库" tabindex="-1">管理仓库 <a class="header-anchor" href="#管理仓库" aria-hidden="true">#</a></h2><div class="language-sh"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#676E95;font-style:italic;"># 查看远程仓库</span></span>
 <span class="line"><span style="color:#FFCB6B;">git</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">remote</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-v</span></span>
 <span class="line"></span>
