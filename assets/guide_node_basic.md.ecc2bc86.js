@@ -30,11 +30,28 @@ import{_ as s,c as a,o as n,Q as l}from"./chunks/framework.9ebe056a.js";const p=
 <span class="line"><span style="color:#676E95;font-style:italic;"># pnpm add eslint -g</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#FFCB6B;">ni</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--frozen</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">/</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">nci</span></span>
+<span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># npm ci</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># yarn install --frozen-lockfile (Yarn 1)</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># yarn install --immutable (Yarn Berry)</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># pnpm install --frozen-lockfile</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># bun install --no-save</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFCB6B;">nu</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># (not available for bun)</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># npm upgrade</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># yarn upgrade (Yarn 1)</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># yarn up (Yarn Berry)</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># pnpm update</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFCB6B;">nu</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">-i</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># (not available for npm &amp; bun)</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># yarn upgrade-interactive (Yarn 1)</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># yarn up -i (Yarn Berry)</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># pnpm update -i</span></span>
 <span class="line"></span></code></pre></div></details><h3 id="nr-run" tabindex="-1"><code>nr</code> - run <a class="header-anchor" href="#nr-run" aria-hidden="true">#</a></h3><div class="language-sh"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#FFCB6B;">nr</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">dev</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">--port=3000</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># npm run dev --port=3000</span></span>
@@ -55,7 +72,7 @@ import{_ as s,c as a,o as n,Q as l}from"./chunks/framework.9ebe056a.js";const p=
 <span class="line"></span></code></pre></div><div class="language-bash"><button title="Copy Code" class="copy"></button><span class="lang">bash</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#676E95;font-style:italic;"># ~/.bashrc</span></span>
 <span class="line"><span style="color:#676E95;font-style:italic;"># custom configuration file path</span></span>
 <span class="line"><span style="color:#C792EA;">export</span><span style="color:#A6ACCD;"> NI_CONFIG_FILE</span><span style="color:#89DDFF;">=</span><span style="color:#89DDFF;">&quot;</span><span style="color:#A6ACCD;">$HOME</span><span style="color:#C3E88D;">/.config/ni/nirc</span><span style="color:#89DDFF;">&quot;</span></span>
-<span class="line"></span></code></pre></div><br><h2 id="volta" tabindex="-1">volta <a class="header-anchor" href="#volta" aria-hidden="true">#</a></h2><div class="vp-code-group"><div class="tabs"><input type="radio" name="group-nfJDW" id="tab-NA4iCrV" checked="checked"><label for="tab-NA4iCrV">curl</label><input type="radio" name="group-nfJDW" id="tab-SduW-XP"><label for="tab-SduW-XP">brew</label></div><div class="blocks"><div class="language-sh active"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#FFCB6B;">$</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">curl</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">https://get.volta.sh</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">|</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">bash</span></span>
+<span class="line"></span></code></pre></div><br><h2 id="volta" tabindex="-1">volta <a class="header-anchor" href="#volta" aria-hidden="true">#</a></h2><div class="vp-code-group"><div class="tabs"><input type="radio" name="group-sk1Yd" id="tab-ZnMC-t4" checked="checked"><label for="tab-ZnMC-t4">curl</label><input type="radio" name="group-sk1Yd" id="tab-FRfvk0k"><label for="tab-FRfvk0k">brew</label></div><div class="blocks"><div class="language-sh active"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#FFCB6B;">$</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">curl</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">https://get.volta.sh</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">|</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">bash</span></span>
 <span class="line"></span></code></pre></div><div class="language-sh"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#FFCB6B;">$</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">brew</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">install</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">volta</span></span>
 <span class="line"></span></code></pre></div></div></div><p>然后，添加 <code>volta</code> 到环境变量：</p><div class="language-sh"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#82AAFF;">source</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">.bash_profile</span></span>
 <span class="line"></span></code></pre></div><p>之后，你就可以正常使用 <code>volta</code></p><details class="details custom-block"><summary>当你在终端运行 <code>volta</code> or <code>volta -h</code>:</summary><div class="language-sh"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki material-theme-palenight" tabindex="0"><code><span class="line"><span style="color:#FFCB6B;">$</span><span style="color:#A6ACCD;"> </span><span style="color:#C3E88D;">volta</span></span>
