@@ -628,7 +628,9 @@ import{_ as s,c as n,o as a,Q as l}from"./chunks/framework.199f640a.js";const i=
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">&lt;/</span><span style="color:#F07178;">template</span><span style="color:#89DDFF;">&gt;</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">&lt;</span><span style="color:#F07178;">div</span></span>
-<span class="line"><span style="color:#89DDFF;">      </span><span style="color:#C792EA;">:class</span><span style="color:#89DDFF;">=</span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">lineNumber &gt; 1 ? &#39;text-ellipsis-multiple&#39; : &#39;text-ellipsis&#39;</span><span style="color:#89DDFF;">&quot;</span></span>
+<span class="line"><span style="color:#89DDFF;">      </span><span style="color:#C792EA;">:class</span><span style="color:#89DDFF;">=</span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">[</span></span>
+<span class="line"><span style="color:#C3E88D;">        { lineNumber &gt; 1 ? &#39;text-ellipsis-multiple&#39; : &#39;text-ellipsis&#39; }</span></span>
+<span class="line"><span style="color:#C3E88D;">      ]</span><span style="color:#89DDFF;">&quot;</span></span>
 <span class="line"><span style="color:#89DDFF;">      </span><span style="color:#C792EA;">@mouseenter.stop</span><span style="color:#89DDFF;">=</span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">onMouseEnter</span><span style="color:#89DDFF;">&quot;</span></span>
 <span class="line"><span style="color:#89DDFF;">    &gt;</span></span>
 <span class="line"><span style="color:#A6ACCD;">      </span><span style="color:#89DDFF;">&lt;</span><span style="color:#F07178;">slot</span><span style="color:#89DDFF;">&gt;</span><span style="color:#A6ACCD;">{{ text }}</span><span style="color:#89DDFF;">&lt;/</span><span style="color:#F07178;">slot</span><span style="color:#89DDFF;">&gt;</span></span>
