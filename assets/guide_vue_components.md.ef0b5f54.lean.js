@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,Q as l}from"./chunks/framework.199f640a.js";const i=JSON.parse('{"title":"组件","description":"","frontmatter":{"outline":[2,3]},"headers":[],"relativePath":"guide/vue/components.md"}'),p={name:"guide/vue/components.md"},o=l("",51),e=[o];function t(c,r,D,F,y,C){return a(),n("div",null,e)}const u=s(p,[["render",t]]);export{i as __pageData,u as default};
