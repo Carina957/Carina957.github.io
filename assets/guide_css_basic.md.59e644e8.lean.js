@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,Q as l}from"./chunks/framework.7251957a.js";const A=JSON.parse('{"title":"基础","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/css/basic.md"}'),o={name:"guide/css/basic.md"},p=l("",21),e=[p];function t(c,r,D,y,F,C){return n(),a("div",null,e)}const d=s(o,[["render",t]]);export{A as __pageData,d as default};
