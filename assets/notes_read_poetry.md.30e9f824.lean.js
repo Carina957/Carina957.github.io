@@ -1,0 +1,1 @@
+import{_ as p,c as a,o as e,Q as r}from"./chunks/framework.c9ed9877.js";const m=JSON.parse('{"title":"Poetry","description":"","frontmatter":{},"headers":[],"relativePath":"notes/read/poetry.md"}'),t={name:"notes/read/poetry.md"},o=r("",145),h=[o];function l(i,n,s,d,c,u){return e(),a("div",null,h)}const q=p(t,[["render",l]]);export{m as __pageData,q as default};
