@@ -1,0 +1,1 @@
+import{_ as i,c as t,o as e,Q as a}from"./chunks/framework.bb992ea8.js";const u=JSON.parse('{"title":"Basic","description":"","frontmatter":{},"headers":[],"relativePath":"guide/vscode/basic.md"}'),l={name:"guide/vscode/basic.md"},o=a("",4),c=[o];function s(r,d,n,_,h,f){return e(),t("div",null,c)}const m=i(l,[["render",s]]);export{u as __pageData,m as default};
