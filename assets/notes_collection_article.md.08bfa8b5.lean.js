@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as l,Q as a}from"./chunks/framework.bb992ea8.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"notes/collection/article.md"}'),r={name:"notes/collection/article.md"},n=a("",8),d=[n];function i(s,h,o,f,c,g){return l(),e("div",null,d)}const x=t(r,[["render",i]]);export{b as __pageData,x as default};
