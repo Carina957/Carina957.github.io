@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,Q as r}from"./chunks/framework.66ea9e78.js";const k=JSON.parse('{"title":"Extensions","description":"","frontmatter":{},"headers":[],"relativePath":"guide/vscode/extensions.md"}'),i={name:"guide/vscode/extensions.md"},o=r("",14),s=[o];function n(l,m,d,c,h,u){return t(),a("div",null,s)}const f=e(i,[["render",n]]);export{k as __pageData,f as default};
