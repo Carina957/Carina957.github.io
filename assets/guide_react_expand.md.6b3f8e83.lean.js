@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,V as l}from"./chunks/framework.8db21c83.js";const E=JSON.parse('{"title":"拓展","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/react/expand.md"}'),p={name:"guide/react/expand.md"},o=l("",12),e=[o];function t(c,F,r,D,y,B){return a(),n("div",null,e)}const i=s(p,[["render",t]]);export{E as __pageData,i as default};
