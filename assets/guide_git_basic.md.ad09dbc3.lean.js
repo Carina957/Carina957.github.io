@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,V as l}from"./chunks/framework.fd8bb285.js";const C=JSON.parse('{"title":"Git","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"guide/git/basic.md"}'),p={name:"guide/git/basic.md"},o=l("",32),e=[o];function t(c,r,i,y,B,E){return n(),a("div",null,e)}const d=s(p,[["render",t]]);export{C as __pageData,d as default};
