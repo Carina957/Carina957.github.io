@@ -1,0 +1,1 @@
+import{d as t,a4 as a,c as r,r as n,t as c,G as l,f as d,o as s}from"./framework.51a53838.js";const _={class:"demo wide"},i={key:0,class:"error"},f=t({__name:"DemoContainer",setup(m){const e=d(null);return a(o=>{e.value=o}),(o,u)=>(s(),r("div",_,[n(o.$slots,"default"),e.value?(s(),r("div",i,c(e.value),1)):l("",!0)]))}});export{f as _};
